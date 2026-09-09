@@ -39,7 +39,7 @@
 
 | 要什么 | 在哪 |
 |---|---|
-| **SolidWorks 源文件**（56 个，解压后 340 MB） | 👉 [**Releases**](../../releases) 里的 `SolidWorks图纸.zip` |
+| **SolidWorks 源文件**（56 个，解压后 340 MB） | 👉 [**下载 `SolidWorks.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks.zip)（341 MB，或到 [Releases](../../releases) 页） |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
 | **组件图 / 爆炸图**（23 张） | [`组件图/`](组件图/) |
 
