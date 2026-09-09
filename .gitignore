@@ -1,0 +1,10 @@
+# 待上传 Release 的大包，绝对不能进 git
+_release/
+
+# SolidWorks 锁文件
+~$*
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
+desktop.ini
