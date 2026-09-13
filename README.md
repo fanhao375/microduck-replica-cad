@@ -1,7 +1,13 @@
 # Microduck 复刻 · SolidWorks 三维图纸与装配说明书
 
-> **可编辑的 SolidWorks 源文件**（不是 STL），56 个零件与装配体，外加一份 21 页的装配安装说明书。
+> **可编辑的 SolidWorks 源文件**（不是 STL），外加一份 21 页的装配安装说明书。**两个版本**：
+> **v2.0 飞特 HD-1910 版**（2026-09-12，已装出实物）和 v1.0 原版 XL330 版。
 > 配套主仓：[**fanhao375/microduck-replica**](https://github.com/fanhao375/microduck-replica) —— 整机复刻、电路板与逆向分析都在那边。
+
+<div align="center">
+  <img src="assets/飞特版装机-正面.jpg" alt="飞特 HD-1910 版装机实物" width="360">
+  <br><sub>2026-09-13 · 飞特 HD-1910 版装出来了，15 颗全在位</sub>
+</div>
 
 <div align="center">
   <img src="组件图/00-microduck装配体.png" alt="microduck 装配体" width="300">
@@ -39,13 +45,38 @@
 
 | 要什么 | 在哪 |
 |---|---|
-| **SolidWorks 源文件**（56 个，解压后 340 MB） | 👉 [**下载 `SolidWorks.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks.zip)（341 MB，或到 [Releases](../../releases) 页） |
+| **飞特 HD-1910 版源文件**（v2.0 · 62 个 SolidWorks + 9 个 STEP，解压 435 MB） | 👉 [**下载 `SolidWorks-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks-FT.zip) |
+| **只要改动件的 STEP**（v2.0 · 9 个，15 MB） | 👉 [**下载 `STEP-changed-parts-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/STEP-changed-parts-FT.zip) —— 不用 SolidWorks 也能开 |
+| 原版 XL330 版源文件（v1.0 · 56 个，340 MB） | [Releases · v1.0](../../releases/tag/v1.0) 里的 `SolidWorks.zip` |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
 | **组件图 / 爆炸图**（23 张） | [`组件图/`](组件图/) |
 
 > **为什么源文件放 Releases 不放 git**：SolidWorks 是二进制格式，git 存它既不能 diff 也不能合并，
 > 只会一版版往历史里堆 —— 改三次图仓库就上 1 GB，而且**历史删不掉**。
 > 放 Release 附件则不计入仓库体积，更新时发新版即可，clone 这个仓库始终只有几 MB。
+
+---
+
+## 飞特 HD-1910 版改了什么
+
+原版用 Dynamixel XL330，本仓库主仓走飞特 HD-1910（更便宜、力矩大 2.5 倍、电压额定匹配 —— 见[主仓执行器选型](https://github.com/fanhao375/microduck-replica/blob/master/docs/执行器选型.md)）。
+**两款舵机外形接近但舵盘不一样：HD-1910 的舵盘是凸出来的，XL330 是凹进去的。** 所有跟舵盘配合的件都得改：
+
+| 改动件 | 为什么 |
+|---|---|
+| `left_upper_leg` / `right_upper_leg` 左右上腿 | 髋 pitch 和膝的舵盘位 |
+| `leg` 小腿 | 膝和踝的舵盘位 |
+| `trunk_base` 躯干底座 | 髋 yaw 舵机安装位 |
+| `yaw2roll` 偏航转横滚 | 髋 yaw 舵盘 → 髋 roll 舵机 |
+| `bearing_roll` 轴承滚轮 | 髋 roll 轴承座 |
+| `01-upper_leg_rigidity_plate` 上腿加固板 | 跟上腿一起改 |
+| `99-yaw_roll_motion` 偏航横滚运动 | 头部 yaw/roll，`-F` 和 `-FT` 两个变体 |
+
+**文件命名**：所有件带 `-FT` 后缀（FT = 飞特）。没改的件也带 `-FT`，是为了整套装配体引用一致 —— 27 个件跟 v1.0 内容一样，只是改了名。
+
+**多出来的**：`HD-1910-c001-dan / -shuang`（单盘 / 双盘舵机模型）、`舵机比较.SLDASM`（两款舵机并排对比）、`飞特电机资料1/`（飞特给的 STEP / DWG / 规格图）。
+
+⚠️ 装配说明书 PDF 和组件图**还是 v1.0 的**，装配顺序和步骤不变，只是舵机换了。
 
 ---
 
