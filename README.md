@@ -4,6 +4,9 @@
 > **v2.0 飞特 HD-1910 版**（2026-09-12，已装出实物）和 v1.0 原版 XL330 版。
 > 配套主仓：[**fanhao375/microduck-replica**](https://github.com/fanhao375/microduck-replica) —— 整机复刻、电路板与逆向分析都在那边。
 
+> 📦 **压缩包在 [Releases 页](../../releases)（页面右边栏），不在上面的文件列表里。** 374 MB 的 SolidWorks 不适合塞进 git。
+> 🖨️ **只想打印、不想看图** → [拓竹 MakerWorld · microduck 飞特版](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428)，一键切片（机械行者Robo 上传，就是这套飞特版）。
+
 <div align="center">
   <img src="assets/飞特版装机-正面.jpg" alt="飞特 HD-1910 版装机实物" width="360">
   <br><sub>2026-09-13 · 飞特 HD-1910 版装出来了，15 颗全在位</sub>
@@ -50,6 +53,7 @@
 | 原版 XL330 版源文件（v1.0 · 56 个，340 MB） | [Releases · v1.0](../../releases/tag/v1.0) 里的 `SolidWorks.zip` |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
 | **组件图 / 爆炸图**（23 张） | [`组件图/`](组件图/) |
+| 🖨️ **直接打印** | [拓竹 MakerWorld · microduck 飞特版](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) —— 不用下源文件，一键切片 |
 
 > **为什么源文件放 Releases 不放 git**：SolidWorks 是二进制格式，git 存它既不能 diff 也不能合并，
 > 只会一版版往历史里堆 —— 改三次图仓库就上 1 GB，而且**历史删不掉**。
