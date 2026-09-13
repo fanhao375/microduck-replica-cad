@@ -53,7 +53,8 @@
 | 原版 XL330 版源文件（v1.0 · 56 个，340 MB） | [Releases · v1.0](../../releases/tag/v1.0) 里的 `SolidWorks.zip` |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
 | **组件图 / 爆炸图**（23 张） | [`组件图/`](组件图/) |
-| 🖨️ **直接打印** | [拓竹 MakerWorld · microduck 飞特版](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) —— 不用下源文件，一键切片 |
+| 🖨️ **打印工程文件**（Bambu Studio `.3mf`，4.9 MB） | [`打印/microduck-飞特版-BambuStudio.3mf`](打印/microduck-飞特版-BambuStudio.3mf) —— **就在仓库里，直接下**。5 个盘、52 个件、P2S / PLA / 0.2 层高，跟拓竹上那个是同一份 |
+| 🖨️ **拓竹一键打印** | [MakerWorld · microduck 飞特版](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) —— 有拓竹打印机的直接云切片 |
 
 > **为什么源文件放 Releases 不放 git**：SolidWorks 是二进制格式，git 存它既不能 diff 也不能合并，
 > 只会一版版往历史里堆 —— 改三次图仓库就上 1 GB，而且**历史删不掉**。
@@ -81,6 +82,33 @@
 **多出来的**：`HD-1910-c001-dan / -shuang`（单盘 / 双盘舵机模型）、`舵机比较.SLDASM`（两款舵机并排对比）、`飞特电机资料1/`（飞特给的 STEP / DWG / 规格图）。
 
 ⚠️ 装配说明书 PDF 和组件图**还是 v1.0 的**，装配顺序和步骤不变，只是舵机换了。
+
+---
+
+## 打印
+
+**[`打印/microduck-飞特版-BambuStudio.3mf`](打印/microduck-飞特版-BambuStudio.3mf)** —— 机械行者Robo 排好盘的 Bambu Studio 工程，跟[拓竹 MakerWorld](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) 上传的是同一份。
+
+| 项 | 值 |
+|---|---|
+| 打印机 | Bambu Lab **P2S**，0.4 喷嘴 |
+| 耗材 | PLA Basic |
+| 层高 | 0.2 mm |
+| 盘数 | **5 盘**，52 个对象 —— 飞特版全部打印件 |
+
+<table>
+<tr>
+<td align="center"><img src="打印/盘1.png" width="180"><br><sub>盘 1</sub></td>
+<td align="center"><img src="打印/盘2.png" width="180"><br><sub>盘 2</sub></td>
+<td align="center"><img src="打印/盘3.png" width="180"><br><sub>盘 3</sub></td>
+<td align="center"><img src="打印/盘4.png" width="180"><br><sub>盘 4</sub></td>
+<td align="center"><img src="打印/盘5.png" width="180"><br><sub>盘 5</sub></td>
+</tr>
+</table>
+
+**怎么用**：Bambu Studio 打开 → 切片 → 打印，五盘依次来。**不是拓竹打印机**也能用：任何切片软件都能导入 `.3mf` 拿到模型和排盘，只是打印参数要按自己的机器重设。
+
+耗材、螺丝、热熔螺母的采购在[主仓机械采购清单](https://github.com/fanhao375/microduck-replica/blob/master/docs/机械采购清单.md)。
 
 ---
 
