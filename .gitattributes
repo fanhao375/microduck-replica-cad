@@ -24,3 +24,5 @@
 *.3mf      binary
 
 *.md       text eol=lf
+*.xlsx     binary
+*.xls      binary
