@@ -19,6 +19,21 @@
 
 ---
 
+## 两个版本，选一个下
+
+| | 原版 · XL330 · **v1.1** | 飞特 · HD-1910 · **v2.0** |
+|---|---|---|
+| **舵机** | Dynamixel XL330-M288 | 飞特 HD-1910-C001 |
+| **文件** | 57 个 SolidWorks，无后缀 | 62 个 SolidWorks + 9 个 STEP，`-FT` 后缀 |
+| **差别** | — | **舵盘凸出**，8 个配合件改了（[改了什么](#飞特-hd-1910-版改了什么)） |
+| **打印** | 主仓 [`print/`](https://github.com/fanhao375/microduck-replica/tree/master/print) 上游 STL | [`打印/` 3mf](打印/) · [拓竹一键打印](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) |
+| **实物** | — | 已装出（上图） |
+| **下载** | [`SolidWorks-XL330-v1.1.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip) 333 MB | [`SolidWorks-FT.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks-FT.zip) 373 MB |
+
+两版的踝 / 小腿 / 脚在 2026-09-15 同步成了一套设计；装配说明书和组件图两版通用。
+
+---
+
 ## 图纸作者：机械行者Robo
 
 **这套三维图纸和安装说明书，全部由「机械行者Robo」建模、整理、编写。**
