@@ -66,7 +66,7 @@
 | **飞特 HD-1910 版源文件**（v2.0 · 62 个 SolidWorks + 9 个 STEP，解压 435 MB） | 👉 [**下载 `SolidWorks-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks-FT.zip) |
 | **只要改动件的 STEP**（v2.0 · 9 个，15 MB） | 👉 [**下载 `STEP-changed-parts-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/STEP-changed-parts-FT.zip) —— 不用 SolidWorks 也能开 |
 | **原版 XL330 版源文件**（v1.1 · 57 个 SolidWorks，解压 348 MB） | 👉 [**下载 `SolidWorks-XL330-v1.1.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip)（[v1.0 旧版](../../releases/tag/v1.0) 仍可下） |
-| **装配 BOM**（机械行者Robo 整理，35 个打印件 + 16 个外购件，含材料和数量） | [`BOM/装配BOM-机械行者Robo-2026-09-15.xlsx`](BOM/装配BOM-机械行者Robo-2026-09-15.xlsx)，下面有校对过的表 |
+| **装配 BOM**（机械行者Robo 整理，35 个打印件 + 16 个外购件，含材料、数量，**2026-09-16 起带轴承和螺丝的采购链接**） | [`BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx`](BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx)，下面有校对过的表 |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
 | **组件图 / 爆炸图**（23 张） | [`组件图/`](组件图/) |
 | 🖨️ **打印工程文件**（Bambu Studio `.3mf`，4.9 MB，2026-09-15 版） | [`打印/microduck-飞特版-BambuStudio.3mf`](打印/microduck-飞特版-BambuStudio.3mf) —— **就在仓库里，直接下**。5 个盘、52 个件、P2S / PLA / 0.2 层高，跟拓竹上那个是同一份 |
@@ -119,7 +119,7 @@
 
 ## 装配 BOM
 
-[`BOM/装配BOM-机械行者Robo-2026-09-15.xlsx`](BOM/装配BOM-机械行者Robo-2026-09-15.xlsx) 是机械行者Robo 按装配体整理的，**下面这张表照它排，但按主仓查证过的事实改了四处**（原表照收，改动都写在这儿）：
+[`BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx`](BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx) 是机械行者Robo 按装配体整理的，2026-09-16 版给轴承和螺丝加了他实际下单的淘宝 / 天猫链接（小白照着买就行）。**下面这张表照它排，但按主仓查证过的事实改了四处**（原表照收，改动都写在这儿）：
 
 | 原表 | 改成 | 依据 |
 |---|---|---|
@@ -168,7 +168,7 @@
 | 34 | 香蕉形 PCB 锁扣 | `banana_pcb_locker` | PLA | 1 | |
 | 35 | 轴承滚轮 | `bearing_roll` | PLA | 2 | 可换铝合金增强 |
 
-### 二、外购件（16 项）
+### 二、外购件（16 项 + 螺纹胶）
 
 | # | 件 | 数量 | 备注 |
 |---|---|---|---|
@@ -181,12 +181,13 @@
 | 42 | 电池座 | 1 | NP-F 电池仓 + 取电扣板 |
 | 43 | IMX219 摄像头 | 1 | |
 | 44 | 扬声器 | 1 | 走 HAT 音频才要 |
-| 45 | 轴承 15×10×3 | 3 | |
-| 46 | 轴承 22×16×4 | 11 | |
-| 47 | 轴承 12×6×3 | 2 | 轮滑变体用 |
-| 48 | 螺丝 M2×5 | 若干 | 数量表见[主仓紧固件反推](https://github.com/fanhao375/microduck-replica/blob/master/docs/紧固件反推.md) |
-| 49 | 螺丝 M2.5×8 | 若干 | |
-| 50 | 螺纹胶 | 1 | 乐泰 243 |
+| 45 | 轴承 10×15×3 | 3 | 机械行者Robo 买的：[淘宝 963037239628](https://item.taobao.com/item.htm?id=963037239628&skuId=6069280211062)（选 10×15×3 那个 SKU） |
+| 46 | 轴承 16×22×4 | 11 | 机械行者Robo 买的：[天猫 978199812185](https://detail.tmall.com/item.htm?id=978199812185&skuId=6245616343131) |
+| 47 | 轴承 6×12×3 | 2 | 轮滑变体用，走路不用买。同一家：[淘宝 963037239628](https://item.taobao.com/item.htm?id=963037239628&skuId=6068333830994)（选 6×12×3） |
+| 48 | 螺丝 M2×5 | 若干 | 机械行者Robo 买的：[天猫 637524754721](https://detail.tmall.com/item.htm?id=637524754721&skuId=5802482233046)；每种多少颗见[主仓紧固件反推](https://github.com/fanhao375/microduck-replica/blob/master/docs/紧固件反推.md) |
+| 49 | 螺丝 M2×6 | 若干 | 同一家：[天猫 637524754721](https://detail.tmall.com/item.htm?id=637524754721&skuId=5802482233047) |
+| 50 | 螺丝 M2.5×6 | 若干 | 同一家：[天猫 637524754721](https://detail.tmall.com/item.htm?id=637524754721&skuId=61808188996) |
+| 51 | 螺纹胶 | 1 | 乐泰 243，原表没列，装配说明书要求 |
 
 ---
 
