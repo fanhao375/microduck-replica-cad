@@ -28,7 +28,7 @@
 | **差别** | — | **舵盘凸出**，8 个配合件改了（[改了什么](#飞特-hd-1910-版改了什么)） |
 | **打印** | 主仓 [`print/`](https://github.com/fanhao375/microduck-replica/tree/master/print) 上游 STL | [`打印/` 3mf](打印/) · [拓竹一键打印](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) |
 | **实物** | — | 已装出（上图） |
-| **下载** | [`SolidWorks-XL330-v1.1.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip) 333 MB | [`SolidWorks-FT.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks-FT.zip) 373 MB |
+| **下载** | [`SolidWorks-XL330-v1.1.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip) 333 MB | [`SolidWorks-FT.zip`](https://github.com/fanhao375/microduck-replica-cad/releases/download/v2.0/SolidWorks-FT.zip) 373 MB |
 
 两版的踝 / 小腿 / 脚在 2026-09-15 同步成了一套设计；装配说明书和组件图两版通用。
 
@@ -63,8 +63,8 @@
 
 | 要什么 | 在哪 |
 |---|---|
-| **飞特 HD-1910 版源文件**（v2.0 · 62 个 SolidWorks + 9 个 STEP，解压 435 MB） | 👉 [**下载 `SolidWorks-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/SolidWorks-FT.zip) |
-| **只要改动件的 STEP**（v2.0 · 9 个，15 MB） | 👉 [**下载 `STEP-changed-parts-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/latest/download/STEP-changed-parts-FT.zip) —— 不用 SolidWorks 也能开 |
+| **飞特 HD-1910 版源文件**（v2.0 · 62 个 SolidWorks + 9 个 STEP，解压 435 MB） | 👉 [**下载 `SolidWorks-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/download/v2.0/SolidWorks-FT.zip) |
+| **只要改动件的 STEP**（v2.0 · 9 个，15 MB） | 👉 [**下载 `STEP-changed-parts-FT.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/download/v2.0/STEP-changed-parts-FT.zip) —— 不用 SolidWorks 也能开 |
 | **原版 XL330 版源文件**（v1.1 · 57 个 SolidWorks，解压 348 MB） | 👉 [**下载 `SolidWorks-XL330-v1.1.zip`**](https://github.com/fanhao375/microduck-replica-cad/releases/download/v1.1/SolidWorks-XL330-v1.1.zip)（[v1.0 旧版](../../releases/tag/v1.0) 仍可下） |
 | **装配 BOM**（机械行者Robo 整理，35 个打印件 + 16 个外购件，含材料、数量，**2026-09-16 起带轴承和螺丝的采购链接**） | [`BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx`](BOM/装配BOM-机械行者Robo-2026-09-16-带采购链接.xlsx)，下面有校对过的表 |
 | **装配安装说明书**（21 页 PDF） | [`安装说明书/microduck装配安装说明书.pdf`](安装说明书/microduck装配安装说明书.pdf) |
