@@ -66,7 +66,7 @@
 | 6 | 结构金属件 | 金属件 | 1 | 45 | 45 | 一部分3D打印件强度不够，需要改成金属 | [采购链接](<https://item.taobao.com/item.htm?from=cart&id=1095772009248&mi_id=0000k5a4h2xn9-U2kK65zvgqUHC_C531-FyULpEJDEhNZ_8&skuId=6316555794741&spm=a1z0d.6639537%2F202410.item.d1095772009248.13b57484MxOsVU>) |
 | 7 | 飞特HD1910M舵机 | 电子件 | 15 | 120 | 1800 | 可拼团github | [项目入口](<https://github.com/fanhao375/microduck-replica>) |
 | 8 | 飞特舵机URT2调试板 | 电子件 | 1 | 45 | 45 |  | [采购链接](<https://item.taobao.com/item.htm?spm=a1z0d.6639537%2F202410.item.d575365901461.511774843C6ViG&id=575365901461&xxc=shop&from=cart&skuId=5435424470243&mi_id=0000xzcmwFVCRAh37nhTBqqPxAc4BB-aXBAZs9-SHZnxT_s>) |
-| 9 | NP-F550电池 | 电子件 | 1 | 17 | 47 |  | [采购链接](<https://item.taobao.com/item.htm?adType=orgqzt&from=cart&id=769425140324&mi_id=00009VN3uJH9Mvl1nh6sR6uszyaiYL6FFhvjGBj6PAaJbUg&skuId=5445604550341&spm=a1z0d.6639537%2F202410.item.d769425140324.5a377484k96nZS&upStreamPrice=5500&xxc=qzt_taobaoSearch>) |
+| 9 | NP-F550电池 | 电子件 | 1 | 47 | 47 |  | [采购链接](<https://item.taobao.com/item.htm?adType=orgqzt&from=cart&id=769425140324&mi_id=00009VN3uJH9Mvl1nh6sR6uszyaiYL6FFhvjGBj6PAaJbUg&skuId=5445604550341&spm=a1z0d.6639537%2F202410.item.d769425140324.5a377484k96nZS&upStreamPrice=5500&xxc=qzt_taobaoSearch>) |
 | 10 | AMP2.0双头转接线 microduck 舵机线 | 电子件 | 1 | 2 | 2 | 调试用 | [采购链接](<https://item.taobao.com/item.htm?id=1089647066599&mi_id=0000KqIW0wThzcfg1FqUc6VdYVF2XtZv0Ep94yoyuJ-fYl8&pvid=a7a9bbc1-3e60-439d-90a4-0d4fdd081d6d&scm=1007.54964.509742.0&skuId=6146736860515&spm=pc_detail.30350276.201876.d4.18bd7dd6DvXX58&utparam=%7B%22x_object_type%22%3A%22item%22%2C%22matchType%22%3A%22MAIN_SWING_I2I%22%2C%22item_price%22%3A%222%22%2C%22umpCalled%22%3Atrue%2C%22pc_scene%22%3A%2220001%22%2C%22userId%22%3A1038948925%2C%22ab_info%22%3A%2244964%23509742%23-1%23%22%2C%22tpp_buckets%22%3A%2244964%23509742%23-1%23%22%2C%22aplus_abtest%22%3A%22fe88f406097dbf1addeadb9550070432%22%2C%22isLogin%22%3Atrue%2C%22abid%22%3A%220%22%2C%22pc_pvid%22%3A%22a7a9bbc1-3e60-439d-90a4-0d4fdd081d6d%22%2C%22isWeekLogin%22%3Afalse%2C%22rn%22%3A3%2C%22item_ecpm%22%3A0%2C%22ump_price%22%3A%222%22%2C%22isXClose%22%3Afalse%2C%22x_object_id%22%3A1089647066599%7D&xxc=home_recommend>) |
 | 11 | IMX219摄像头模块 | 光学件 | 1 | 46.8 | 46.8 | 160度 | [采购链接](<https://detail.tmall.com/item.htm?id=775872575316>) |
 | 12 | VL53L5X V2 ToF 模块 | 电子件 | 1 | 49.5 | 49.5 | VL53L5X V2 模块配盖片 | [采购链接](<https://item.taobao.com/item.htm?from=cart&id=737603917521&mi_id=0000svFiYCCRNyTplS2syupd6wPqm_3g253yiYEiJIUzYWg&skuId=5090650052053&spm=a1z0d.6639537%2F202410.item.d737603917521.12a97484LeTNU7&upStreamPrice=4950>) |
@@ -85,9 +85,8 @@
 
 ## 三、原表说明与待核对项
 
-**原表合计：2966.23 元**（= 打印件 139 元 + 外购件合计；合计公式 `SUM(I3:I60)` 已覆盖全部条目）。以下两处与 11-02 原表不一致，需核对：
+**原表合计：2966.23 元**（= 打印件 139 元 + 外购件合计；合计公式 `SUM(I3:I60)` 已覆盖全部条目）。以下一处与 11-02 原表不一致，需核对：
 
-- “NP-F550电池”一行数量为 1、单价为 17 元、总价为 47 元，单价与总价不一致。
 - “hub 分线板”“结构金属件”两行原表未填类别与数量，下表按 1 件、合理类别补全。
 
 <details>
